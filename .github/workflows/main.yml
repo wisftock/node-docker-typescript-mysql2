@@ -25,9 +25,6 @@ jobs:
       - name: Build app
         run: npm run start:build
 
-      - name: App production
-        run: npm run start:prod
-
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
