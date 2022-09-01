@@ -1,0 +1,7 @@
+export enum Status {
+  BAD_REQUEST = 'OK',
+  CREATED = 'CREATED',
+  INTERNAL_SERVER_ERROR = 'INTERNAL_SERVER_ERROR',
+  NOT_FOUND = 'NOT_FOUND',
+  OK = 'OK',
+}
